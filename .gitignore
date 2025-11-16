@@ -1,0 +1,60 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore model checkpoints and large data
+*.pt
+*.weights
+*.onnx
+*.h5
+*.ckpt
+*.bin
+
+# Ignore dataset and image folders
+/images/
+data/
+datasets/
+outputs/
+runs/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore environment and config files
+.env
+*.json
+*.yaml
+*.yml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any backups or archives
+*.zip
+*.tar
+*.gz
+*.rar
+
+test1.mp4
+test3.mp4
+yolov8n.pt
